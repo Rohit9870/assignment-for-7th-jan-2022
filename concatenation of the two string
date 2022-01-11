@@ -1,0 +1,8 @@
+public class Concate_string {
+    public static void main(String[] args) {
+        StringBuilder s1 = new StringBuilder("Rohit");      
+        StringBuilder s2 = new StringBuilder(" Pathak");      
+        StringBuilder s = s1.append(s2);     
+            System.out.println(s.toString()); 
+    }
+}
