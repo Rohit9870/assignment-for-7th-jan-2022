@@ -1,0 +1,14 @@
+public class Count_vowels {
+    public static void main(String[] args) {
+        String myStr = "rohitpathak";
+        int count = 0;
+        System.out.println("String = "+myStr);
+        for(char ch : myStr.toCharArray()) {
+           ch = Character.toLowerCase(ch);
+           if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+              ++count;
+           }
+        }
+      System.out.println("Vowels = "+count);
+    }
+}
